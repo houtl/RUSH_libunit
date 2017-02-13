@@ -1,3 +1,4 @@
 language: c
 script:
+    - make fclean
     - make -C ./real-tests test
