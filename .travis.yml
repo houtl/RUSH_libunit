@@ -4,3 +4,9 @@ script:
     - make -C ./real-tests test
 os:
     - osx
+    
+compiler:
+    - clang
+
+env:
+    - ARCH=x86_64
