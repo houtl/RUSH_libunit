@@ -1,0 +1,5 @@
+language: c
+test:
+    - make -c ./real-tests test
+script:
+    - "./hello"
