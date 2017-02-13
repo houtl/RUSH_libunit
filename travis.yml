@@ -1,5 +1,5 @@
 language: c
 test:
-    - make -c ./real-tests test
+    - make -C ./real-tests test
 script:
     - "./hello"
