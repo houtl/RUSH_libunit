@@ -18,8 +18,8 @@ int	strsplit_launcher(void)
 	t_unit_test *testlist;
 
 	write(1, "STRSPLIT:\n", 10);
-	load_test(&testlist, "Basic test", &strsplit_basic_test);
-	load_test(&testlist, "NULL test", &strsplit_null_test);
+	load_test(&testlist, "Basic test", &strsplit_basic_test);	
+//load_test(&testlist, "NULL test", &strsplit_null_test);
 	load_test(&testlist, "white test", &strsplit_white_test);
 	load_test(&testlist, "empty test", &strsplit_empty_test);
 	load_test(&testlist, "full test", &strsplit_full_test);
