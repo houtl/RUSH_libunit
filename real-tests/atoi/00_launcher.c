@@ -24,6 +24,6 @@ int	atoi_launcher(void)
 	load_test(&testlist, "Min test", &atoi_min_test);
 	load_test(&testlist, "White test", &atoi_white_test);
 	load_test(&testlist, "Long test", &atoi_long_test);
-	load_test(&testlist, "OverLong test", &atoi_overlong_test);
+//load_test(&testlist, "OverLong test", &atoi_overlong_test);
 	return (launch_tests(&testlist));
 }
