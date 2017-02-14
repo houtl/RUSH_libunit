@@ -6,7 +6,7 @@
 /*   By: thou <thou@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/12 12:55:04 by thou              #+#    #+#             */
-/*   Updated: 2017/02/12 18:43:07 by atrudel          ###   ########.fr       */
+/*   Updated: 2017/02/14 12:35:42 by thou             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,5 @@ int	atoi_launcher(void)
 	load_test(&testlist, "Min test", &atoi_min_test);
 	load_test(&testlist, "White test", &atoi_white_test);
 	load_test(&testlist, "Long test", &atoi_long_test);
-//load_test(&testlist, "OverLong test", &atoi_overlong_test);
 	return (launch_tests(&testlist));
 }
